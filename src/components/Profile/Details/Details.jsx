@@ -13,11 +13,11 @@ function Details() {
           <p className={style.hi}>Hi, I am</p>
           <h1 className={style.name}>Ashish Kumar Shaw</h1>
           <p className={style.fullstack}>
-            Full-stack Web Developer | Competitive programmer
+            Frontend Developer | Competitive programmer
           </p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1gX0JlTYktt0qe-xtt7KuCgspa87A7DEc/view?usp=sharing"
+            href="https://drive.google.com/file/d/145ra_VUbifgJn49ANN25rsFhOQ1abpNY/view?usp=sharing"
           >
             {" "}
             <button className={style.resume}>RESUME</button>

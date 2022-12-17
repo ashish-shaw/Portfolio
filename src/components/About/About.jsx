@@ -3,19 +3,26 @@ import style from "./about.module.css";
 
 function About() {
   return (
-    <div className={style.aboutbody} >
+    <div className={style.aboutbody}>
       <h1 className={style.h1}>About</h1>
       <div className={style.content}>
-        Ace in Front-end and Back-end Web development using MERN. Always
-        motivated and eager to work in tech-based companies. Love to learn new
-        skills and implement them.Building interactive, real-life projects and
-        contributing to the tech community.{" "}
+        I'm an Ambitious & Intuitive Frontend Developer with hands-on experience
+        in designing, developing, and implementing applications and solutions
+        using JavaScript, VueJs & also Knowledge of ReactJs.{" "}
       </div>
 
       <div className={style.aboutflex} style={{ marginTop: "10px" }}>
         <div style={{ position: "relative" }}>
-          <img src="/pin.gif" style={{width:"1.3em",height:"1.3em",position:"absolute",left:"-30px"} }/>
-          <span>Kolkata, West Bengal</span>
+          <img
+            src="/pin.gif"
+            style={{
+              width: "1.3em",
+              height: "1.3em",
+              position: "absolute",
+              left: "-30px",
+            }}
+          />
+          <span>Bengaluru, Karnataka</span>
         </div>
 
         <div className={style.mail}>
@@ -38,10 +45,8 @@ function About() {
           <a
             style={{ textDecoration: "none" }}
             target="_blank"
-            
             href="mailto:ashishkumarshaw98@gmail.com"
           >
-        
             <span>ashishkumarshaw98@gmail.com</span>
           </a>
         </div>

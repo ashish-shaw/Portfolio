@@ -1,4 +1,5 @@
 import React from "react";
+import Blowhorn from "./Blowhorn/blowhorn";
 import Project1 from "./Project-1/Project1";
 import Project2 from "./Project-2/Project2";
 import Project3 from "./Project-3/Project3";
@@ -16,7 +17,8 @@ function Project() {
       </h1>
       <div className={style.project}>
         <div className={style.projectcontent}>
-          <Project3 />
+          <Blowhorn />
+          {/* <Project3 /> */}
           {/* <Project4 /> */}
           <Project1 />
           <Project2 />
